@@ -7,5 +7,8 @@ namespace TattooStyles.Api.Models
 {
     public class AmericanTrad
     {
+        public string Artist { get; set; }
+        public string Location { get; set; }
+        public string ShopName { get; set; }
     }
 }
